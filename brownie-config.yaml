@@ -1,0 +1,6 @@
+# tells brownie to include .env file to its private, non-push files
+dotenv: .env
+
+# tell brownie which wallets to use
+wallets:
+  from_key: ${PRIVATE_KEY}
